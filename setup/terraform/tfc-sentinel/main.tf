@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 resource "tfe_policy_set" "sentinel" {
   name          = "limit-cost-by-workspace-name"
   description   = "Limit costs with different limits based on workspace names."

@@ -19,6 +19,7 @@ echo "TFC Credential : $(cat ~/.terraform.d/credentials.tfrc.json)"
 echo
 read -r -p "Please verify this is correct? [Y/n] " REPLY
 echo
+REPLY="${REPLY:-Y}"
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
   echo "Please try again...Reruning ~/setup/scripts/tfc-setup.sh"

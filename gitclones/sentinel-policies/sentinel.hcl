@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2021, 2026
+
 module "tfrun-functions" {
     source = "./common-functions/tfrun-functions/tfrun-functions.sentinel"
 }
